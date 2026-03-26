@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -std=c++14 -O3 -O3 -DNDEBUG   -std=gnu++14
 
-CXX_DEFINES = -DBATCHED_NMS
+CXX_DEFINES = 
 
 CXX_INCLUDES = -I/usr/local/cuda/include -I/usr/include/aarch-linux-gnu -I/home/jetson/pbl5/YoloV8-TensorRT-Jetson_Nano/include -isystem /usr/include/opencv4 
 

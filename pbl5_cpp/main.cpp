@@ -186,6 +186,8 @@ string gstreamer_pipeline(int capture_width=640, int capture_height=640, int dis
            "nvvidconv interpolation-method=1 ! "
            "video/x-raw, width=(int)" + to_string(display_width) + 
            ", height=(int)" + to_string(display_height) + ", format=(string)BGRx ! "
+           "videoconvert ! " // Thêm node này để chuyển đổi hệ màu
+           "video/x-raw, format=(string)BGR ! " // Ép về chuẩn BGR 3 kênh cho C++
            "appsink drop=1 max-buffers=1";
 }
 

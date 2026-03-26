@@ -40,6 +40,16 @@ CMakeFiles/YoloV8rt.dir/src/main.cpp.o
  /usr/include/opencv4/opencv2/core/utils/tls.hpp
  /usr/include/opencv4/opencv2/core/version.hpp
  /usr/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/include/opencv4/opencv2/cudaarithm.hpp
+ /usr/include/opencv4/opencv2/cudabgsegm.hpp
+ /usr/include/opencv4/opencv2/cudacodec.hpp
+ /usr/include/opencv4/opencv2/cudafeatures2d.hpp
+ /usr/include/opencv4/opencv2/cudafilters.hpp
+ /usr/include/opencv4/opencv2/cudaimgproc.hpp
+ /usr/include/opencv4/opencv2/cudaobjdetect.hpp
+ /usr/include/opencv4/opencv2/cudaoptflow.hpp
+ /usr/include/opencv4/opencv2/cudastereo.hpp
+ /usr/include/opencv4/opencv2/cudawarping.hpp
  /usr/include/opencv4/opencv2/dnn.hpp
  /usr/include/opencv4/opencv2/dnn/dict.hpp
  /usr/include/opencv4/opencv2/dnn/dnn.hpp
@@ -83,21 +93,18 @@ CMakeFiles/YoloV8rt.dir/src/main.cpp.o
  /usr/include/opencv4/opencv2/highgui.hpp
  /usr/include/opencv4/opencv2/imgcodecs.hpp
  /usr/include/opencv4/opencv2/imgproc.hpp
- /usr/include/opencv4/opencv2/imgproc/segmentation.hpp
  /usr/include/opencv4/opencv2/ml.hpp
  /usr/include/opencv4/opencv2/ml/ml.inl.hpp
  /usr/include/opencv4/opencv2/objdetect.hpp
- /usr/include/opencv4/opencv2/objdetect/aruco_board.hpp
- /usr/include/opencv4/opencv2/objdetect/aruco_detector.hpp
- /usr/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
- /usr/include/opencv4/opencv2/objdetect/barcode.hpp
- /usr/include/opencv4/opencv2/objdetect/charuco_detector.hpp
  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
- /usr/include/opencv4/opencv2/objdetect/face.hpp
- /usr/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/opencv_modules.hpp
  /usr/include/opencv4/opencv2/photo.hpp
+ /usr/include/opencv4/opencv2/shape.hpp
+ /usr/include/opencv4/opencv2/shape/emdL1.hpp
+ /usr/include/opencv4/opencv2/shape/hist_cost.hpp
+ /usr/include/opencv4/opencv2/shape/shape_distance.hpp
+ /usr/include/opencv4/opencv2/shape/shape_transformer.hpp
  /usr/include/opencv4/opencv2/stitching.hpp
  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp
@@ -110,10 +117,32 @@ CMakeFiles/YoloV8rt.dir/src/main.cpp.o
  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp
  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
  /usr/include/opencv4/opencv2/stitching/warpers.hpp
+ /usr/include/opencv4/opencv2/superres.hpp
+ /usr/include/opencv4/opencv2/superres/optical_flow.hpp
  /usr/include/opencv4/opencv2/video.hpp
  /usr/include/opencv4/opencv2/video/background_segm.hpp
  /usr/include/opencv4/opencv2/video/tracking.hpp
  /usr/include/opencv4/opencv2/videoio.hpp
+ /usr/include/opencv4/opencv2/videostab.hpp
+ /usr/include/opencv4/opencv2/videostab/deblurring.hpp
+ /usr/include/opencv4/opencv2/videostab/fast_marching.hpp
+ /usr/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+ /usr/include/opencv4/opencv2/videostab/frame_source.hpp
+ /usr/include/opencv4/opencv2/videostab/global_motion.hpp
+ /usr/include/opencv4/opencv2/videostab/inpainting.hpp
+ /usr/include/opencv4/opencv2/videostab/log.hpp
+ /usr/include/opencv4/opencv2/videostab/motion_core.hpp
+ /usr/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+ /usr/include/opencv4/opencv2/videostab/optical_flow.hpp
+ /usr/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+ /usr/include/opencv4/opencv2/videostab/ring_buffer.hpp
+ /usr/include/opencv4/opencv2/videostab/stabilizer.hpp
+ /usr/include/opencv4/opencv2/videostab/wobble_suppression.hpp
+ /usr/include/opencv4/opencv2/viz.hpp
+ /usr/include/opencv4/opencv2/viz/types.hpp
+ /usr/include/opencv4/opencv2/viz/viz3d.hpp
+ /usr/include/opencv4/opencv2/viz/vizcore.hpp
+ /usr/include/opencv4/opencv2/viz/widgets.hpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/crt/common_functions.h
@@ -205,6 +234,16 @@ CMakeFiles/YoloV8rt.dir/src/yolov8.cpp.o
  /usr/include/opencv4/opencv2/core/utils/tls.hpp
  /usr/include/opencv4/opencv2/core/version.hpp
  /usr/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/include/opencv4/opencv2/cudaarithm.hpp
+ /usr/include/opencv4/opencv2/cudabgsegm.hpp
+ /usr/include/opencv4/opencv2/cudacodec.hpp
+ /usr/include/opencv4/opencv2/cudafeatures2d.hpp
+ /usr/include/opencv4/opencv2/cudafilters.hpp
+ /usr/include/opencv4/opencv2/cudaimgproc.hpp
+ /usr/include/opencv4/opencv2/cudaobjdetect.hpp
+ /usr/include/opencv4/opencv2/cudaoptflow.hpp
+ /usr/include/opencv4/opencv2/cudastereo.hpp
+ /usr/include/opencv4/opencv2/cudawarping.hpp
  /usr/include/opencv4/opencv2/dnn.hpp
  /usr/include/opencv4/opencv2/dnn/dict.hpp
  /usr/include/opencv4/opencv2/dnn/dnn.hpp
@@ -248,21 +287,18 @@ CMakeFiles/YoloV8rt.dir/src/yolov8.cpp.o
  /usr/include/opencv4/opencv2/highgui.hpp
  /usr/include/opencv4/opencv2/imgcodecs.hpp
  /usr/include/opencv4/opencv2/imgproc.hpp
- /usr/include/opencv4/opencv2/imgproc/segmentation.hpp
  /usr/include/opencv4/opencv2/ml.hpp
  /usr/include/opencv4/opencv2/ml/ml.inl.hpp
  /usr/include/opencv4/opencv2/objdetect.hpp
- /usr/include/opencv4/opencv2/objdetect/aruco_board.hpp
- /usr/include/opencv4/opencv2/objdetect/aruco_detector.hpp
- /usr/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
- /usr/include/opencv4/opencv2/objdetect/barcode.hpp
- /usr/include/opencv4/opencv2/objdetect/charuco_detector.hpp
  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
- /usr/include/opencv4/opencv2/objdetect/face.hpp
- /usr/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/opencv_modules.hpp
  /usr/include/opencv4/opencv2/photo.hpp
+ /usr/include/opencv4/opencv2/shape.hpp
+ /usr/include/opencv4/opencv2/shape/emdL1.hpp
+ /usr/include/opencv4/opencv2/shape/hist_cost.hpp
+ /usr/include/opencv4/opencv2/shape/shape_distance.hpp
+ /usr/include/opencv4/opencv2/shape/shape_transformer.hpp
  /usr/include/opencv4/opencv2/stitching.hpp
  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp
@@ -275,10 +311,32 @@ CMakeFiles/YoloV8rt.dir/src/yolov8.cpp.o
  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp
  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
  /usr/include/opencv4/opencv2/stitching/warpers.hpp
+ /usr/include/opencv4/opencv2/superres.hpp
+ /usr/include/opencv4/opencv2/superres/optical_flow.hpp
  /usr/include/opencv4/opencv2/video.hpp
  /usr/include/opencv4/opencv2/video/background_segm.hpp
  /usr/include/opencv4/opencv2/video/tracking.hpp
  /usr/include/opencv4/opencv2/videoio.hpp
+ /usr/include/opencv4/opencv2/videostab.hpp
+ /usr/include/opencv4/opencv2/videostab/deblurring.hpp
+ /usr/include/opencv4/opencv2/videostab/fast_marching.hpp
+ /usr/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+ /usr/include/opencv4/opencv2/videostab/frame_source.hpp
+ /usr/include/opencv4/opencv2/videostab/global_motion.hpp
+ /usr/include/opencv4/opencv2/videostab/inpainting.hpp
+ /usr/include/opencv4/opencv2/videostab/log.hpp
+ /usr/include/opencv4/opencv2/videostab/motion_core.hpp
+ /usr/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+ /usr/include/opencv4/opencv2/videostab/optical_flow.hpp
+ /usr/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+ /usr/include/opencv4/opencv2/videostab/ring_buffer.hpp
+ /usr/include/opencv4/opencv2/videostab/stabilizer.hpp
+ /usr/include/opencv4/opencv2/videostab/wobble_suppression.hpp
+ /usr/include/opencv4/opencv2/viz.hpp
+ /usr/include/opencv4/opencv2/viz/types.hpp
+ /usr/include/opencv4/opencv2/viz/viz3d.hpp
+ /usr/include/opencv4/opencv2/viz/vizcore.hpp
+ /usr/include/opencv4/opencv2/viz/widgets.hpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/crt/host_defines.h
  /usr/local/cuda/include/cuda.h
