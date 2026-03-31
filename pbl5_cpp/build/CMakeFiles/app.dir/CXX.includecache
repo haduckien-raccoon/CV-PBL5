@@ -49,6 +49,10 @@ fstream
 -
 cmath
 -
+stdexcept
+-
+algorithm
+-
 opencv2/opencv.hpp
 -
 cuda_runtime_api.h
